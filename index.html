@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Portofolio Muhamad Emir Alfani</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><span>E</span>Emir Alfani</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#review">Testimonials</a></li>
+        <li><a href="assets/CV.pdf" download="">Download CV</a></li>
+      </ul>
+      <div class="nav__btn">
+        <a href="assets/CV.pdf" download="">Download CV</a>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="about">
+      <div class="header__image">
+        <img src="assets/blur.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <p class="section__subheader">Hi'</p>
+        <h1>I'am Muhamad Emir, a <span>Front-End Developer</span> </h1>
+        <p class="section__description">
+          I am a 7th-semester student of the Sharia Economics program at UIN Syarif Hidayatullah Jakarta with a GPA of 3.78. I possess strong skills in organization, time management, administration, and finance. In addition, I have a strong desire for self-development and a keen willingness to explore new things
+        </p>
+        <div class="header__btns">
+          <button class="btn">Contact Me</button>
+          <a href="#">
+            View Portfolio
+            <span><i class="ri-arrow-right-up-line"></i></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container skill__container" id="skill">
+      <div class="skill__content">
+        <p class="section__subheader">My Skills</p>
+        <h2 class="section__header">Reasons to Hire Me</span></h2>
+        <p class="section__description">I have a strong commitment to completing various projects according to the target</p>
+        <div class="skill__btn">
+          <button class="btn">Hire Me</button>
+        </div>
+      </div>
+      <div class="skill__grid">
+        <div class="skill__card">
+          <span><i class="ri-pages-fill"></i></span>
+          <h4>Front End Developer</h4>
+          <p>I have expertise in Front-End development, including HTML5, CSS3, and modern JavaScript (ES6+).</p>
+        </div>
+        <div class="skill__card">
+          <span><i class="ri-pencil-ruler-2-line"></i></span>
+          <h4>UI/UX Designer</h4>
+          <p>I have experience in creating wireframes and interactive prototypes to ensure a logical workflow before development </p>
+        </div>
+        <div class="skill__card">
+          <span><i class="ri-database-2-fill"></i></span>
+          <h4>Back End Developer</h4>
+          <p>On the Back-End, I have the ability to build and manage server infrastructure using Node.js and Express.js to create efficient and scalable APIs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio__container" id="portfolio">
+      <div class="portfolio__content">
+        <p class="section__subheader">Portfolio</p>
+        <h2 class="section__header">My Creative Works Latest <span>Projects</span></h2>
+        <p class="section__description">Several projects I have worked on during the Lumoshive training program .</p>
+        <div class="portfolio__btn">
+          <button class="btn">Show More</button>
+        </div>
+      </div>
+      <div class="portfolio__image__wrapper">
+        <div class="portfolio__image">
+          <img src="assets/portfolio-1.png" alt="portfolio" />
+          <img src="assets/portfolio-2.jpeg" alt="portfolio" />
+          <img src="assets/portfolio-7.png" alt="portfolio" />
+          <img src="assets/portfolio-8.jpg" alt="portfolio" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container review__container" id="review">
+      <p class="section__subheader">Reviews</p>
+      <h2 class="section__header">Our Customer Say Something <span>About Us</span></h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>Working with them was a game-changer. Their creative vision and technical expertise brought our website to life, exceeding all expectations.</p>
+              <div class="review__details">
+                <img src="assets/review-1.jpg" alt="review" />
+                <div>
+                  <h4>John Doe</h4>
+                  <h5>CEO at Tech Innovations</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>The project was delivered on time and within budget. Their design skills are top-notch, and their attention to detail is impeccable.</p>
+              <div class="review__details">
+                <img src="assets/review-2.jpg" alt="review" />
+                <div>
+                  <h4>Jane Smith</h4>
+                  <h5>Manager at Creative Solutions</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>I've collaborated with many web developers, but they stands out for their exceptional creativity and professional approach.</p>
+              <div class="review__details">
+                <img src="assets/review-3.jpg" alt="review" />
+                <div>
+                  <h4>Alice Brown</h4>
+                  <h5>Freelance Graphic Designer</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>Our new web platform is visually stunning and highly functional, thanks to the innovative design and seamless execution.</p>
+              <div class="review__details">
+                <img src="assets/review-4.jpg" alt="review" />
+                <div>
+                  <h4>Robert White</h4>
+                  <h5>Product Manager at WebCorp</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>From initial concept to the final launch, they were a true partner in creating our online presence. Their work is beautiful and user-friendly.</p>
+              <div class="review__details">
+                <img src="assets/review-5.jpg" alt="review" />
+                <div>
+                  <h4>Emily Green</h4>
+                  <h5>Entrepreneur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container">
+      <p class="section__subheader">Contact</p>
+      <h2 class="section__header">Let's Discuss With <span>Me</span></h2>
+      <form action="mailto:muhamademiralfani@gmail.com" method="post" enctype="text/plain">
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Message"></textarea>
+        <button class="btn">Submit Message</button>
+      </form>
+    </section>
+
+    <footer class="section__container footer__container">
+      <p>Copyright © 2024 Muhamad Emir Alfani</p>
+      <ul class="footer__socials">
+        <li>
+          <a href="https://www.instagram.com/muhamademiralfani/" target="_blank"><i class="ri-instagram-fill"></i></i></a>
+        </li>
+        <li>
+          <a href="https://id.linkedin.com/in/emiralfani" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        </li>
+        <li>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
