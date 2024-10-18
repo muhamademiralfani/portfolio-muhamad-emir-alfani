@@ -2,7 +2,7 @@ document.getElementById('postForm').addEventListener('submit', function (event) 
   event.preventDefault();
 
   const formData = {
-    to: 'emiralcimsat123@gmail.com',
+    to: 'muhamademiralfani@gmail.com',
     name: document.querySelector('input[name="userId"]').value,
     subject: document.querySelector('input[name="title"]').value,
     text: document.querySelector('textarea[name="body"]').value,
