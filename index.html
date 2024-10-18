@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Web Portofolio Muhamad Emir Alfani</title>
   </head>
   <body>
@@ -207,13 +208,14 @@
     <section class="section__container contact__container">
       <p class="section__subheader">Contact</p>
       <h2 class="section__header">Let's Discuss With <span>Me</span></h2>
-      <form action="mailto:muhamademiralfani@gmail.com" method="post" enctype="text/plain">
-        <input type="text" placeholder="Name" />
-        <input type="text" placeholder="Subject" />
-        <textarea placeholder="Message"></textarea>
-        <button class="btn">Submit Message</button>
+      <form id="postForm">
+        <input type="text" id="userId" name="userId" placeholder="Name" required/>
+        <input type="text" id="title" name="title" placeholder="Subject" required maxlength="100" />
+        <textarea id="body" name="body" placeholder="Message"></textarea>
+        <button class="btn" type="submit">Submit Message</button>
       </form>
     </section>
+
 
     <footer class="section__container footer__container">
       <p>Copyright © 2024 Muhamad Emir Alfani</p>
@@ -228,5 +230,9 @@
         </li>
       </ul>
     </footer>
+
+    <script src="script.js">
+
+    </script>
   </body>
 </html>
